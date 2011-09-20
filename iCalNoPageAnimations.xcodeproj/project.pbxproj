@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B02C568142941E300F2B2B9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B02C567142941E300F2B2B9 /* Cocoa.framework */; };
+		1B02C572142941E300F2B2B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B02C570142941E300F2B2B9 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B02C564142941E300F2B2B9 /* iCalNoPageAnimations.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCalNoPageAnimations.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B02C567142941E300F2B2B9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1B02C56A142941E300F2B2B9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1B02C56B142941E300F2B2B9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1B02C56C142941E300F2B2B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1B02C56F142941E300F2B2B9 /* iCalNoPageAnimations-Info.plist */ = {isa = PBXFileReference; path = "iCalNoPageAnimations-Info.plist"; sourceTree = "<group>"; };
+		1B02C571142941E300F2B2B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B02C573142941E300F2B2B9 /* iCalNoPageAnimations-Prefix.pch */ = {isa = PBXFileReference; path = "iCalNoPageAnimations-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B02C561142941E300F2B2B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B02C568142941E300F2B2B9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B02C559142941E300F2B2B9 = {
+			isa = PBXGroup;
+			children = (
+				1B02C56D142941E300F2B2B9 /* iCalNoPageAnimations */,
+				1B02C566142941E300F2B2B9 /* Frameworks */,
+				1B02C565142941E300F2B2B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B02C565142941E300F2B2B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B02C564142941E300F2B2B9 /* iCalNoPageAnimations.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B02C566142941E300F2B2B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B02C567142941E300F2B2B9 /* Cocoa.framework */,
+				1B02C569142941E300F2B2B9 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B02C569142941E300F2B2B9 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B02C56A142941E300F2B2B9 /* AppKit.framework */,
+				1B02C56B142941E300F2B2B9 /* CoreData.framework */,
+				1B02C56C142941E300F2B2B9 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1B02C56D142941E300F2B2B9 /* iCalNoPageAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				1B02C56E142941E300F2B2B9 /* Supporting Files */,
+			);
+			path = iCalNoPageAnimations;
+			sourceTree = "<group>";
+		};
+		1B02C56E142941E300F2B2B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B02C56F142941E300F2B2B9 /* iCalNoPageAnimations-Info.plist */,
+				1B02C570142941E300F2B2B9 /* InfoPlist.strings */,
+				1B02C573142941E300F2B2B9 /* iCalNoPageAnimations-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B02C563142941E300F2B2B9 /* iCalNoPageAnimations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B02C576142941E300F2B2B9 /* Build configuration list for PBXNativeTarget "iCalNoPageAnimations" */;
+			buildPhases = (
+				1B02C560142941E300F2B2B9 /* Sources */,
+				1B02C561142941E300F2B2B9 /* Frameworks */,
+				1B02C562142941E300F2B2B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCalNoPageAnimations;
+			productName = iCalNoPageAnimations;
+			productReference = 1B02C564142941E300F2B2B9 /* iCalNoPageAnimations.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B02C55B142941E300F2B2B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1B02C55E142941E300F2B2B9 /* Build configuration list for PBXProject "iCalNoPageAnimations" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1B02C559142941E300F2B2B9;
+			productRefGroup = 1B02C565142941E300F2B2B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B02C563142941E300F2B2B9 /* iCalNoPageAnimations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B02C562142941E300F2B2B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B02C572142941E300F2B2B9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B02C560142941E300F2B2B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1B02C570142941E300F2B2B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B02C571142941E300F2B2B9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B02C574142941E300F2B2B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1B02C575142941E300F2B2B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1B02C577142941E300F2B2B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCalNoPageAnimations/iCalNoPageAnimations-Prefix.pch";
+				INFOPLIST_FILE = "iCalNoPageAnimations/iCalNoPageAnimations-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1B02C578142941E300F2B2B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCalNoPageAnimations/iCalNoPageAnimations-Prefix.pch";
+				INFOPLIST_FILE = "iCalNoPageAnimations/iCalNoPageAnimations-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B02C55E142941E300F2B2B9 /* Build configuration list for PBXProject "iCalNoPageAnimations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B02C574142941E300F2B2B9 /* Debug */,
+				1B02C575142941E300F2B2B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B02C576142941E300F2B2B9 /* Build configuration list for PBXNativeTarget "iCalNoPageAnimations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B02C577142941E300F2B2B9 /* Debug */,
+				1B02C578142941E300F2B2B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B02C55B142941E300F2B2B9 /* Project object */;
+}
