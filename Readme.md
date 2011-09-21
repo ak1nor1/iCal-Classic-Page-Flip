@@ -15,8 +15,8 @@ This software is the solution. It disables the painfully slow animation of the l
 
 Steps to install iCal Classic Page Flip:
 1. Install latest version of SIMBL: http://www.macupdate.com/app/mac/18351/simbl
-1. Download the iCal Classic Page Flip-bundle
-1. Move the bundle into ~/Library/Application Support/SIMBL/Plugins (Note that both SIMBL and Plugins folder may not exist. Simply create those folders if you don't have them already.)
+2. Download the iCal Classic Page Flip-bundle
+3. Move the bundle into ~/Library/Application Support/SIMBL/Plugins (Note that both SIMBL and Plugins folder may not exist. Simply create those folders if you don't have them already.)
 
 
 
