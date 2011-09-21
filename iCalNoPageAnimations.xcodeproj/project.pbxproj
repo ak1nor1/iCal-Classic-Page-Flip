@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		1B02C568142941E300F2B2B9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B02C567142941E300F2B2B9 /* Cocoa.framework */; };
 		1B02C572142941E300F2B2B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B02C570142941E300F2B2B9 /* InfoPlist.strings */; };
+		1B02C57B142942CF00F2B2B9 /* iCalNoPageAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B02C57A142942CF00F2B2B9 /* iCalNoPageAnimations.m */; };
+		1B02C57E142943E900F2B2B9 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B02C57D142943E900F2B2B9 /* JRSwizzle.m */; };
+		1B76F48A14295E07005E9075 /* iCalNoPageFlip.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B76F48914295E07005E9075 /* iCalNoPageFlip.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,9 +20,14 @@
 		1B02C56A142941E300F2B2B9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		1B02C56B142941E300F2B2B9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		1B02C56C142941E300F2B2B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1B02C56F142941E300F2B2B9 /* iCalNoPageAnimations-Info.plist */ = {isa = PBXFileReference; path = "iCalNoPageAnimations-Info.plist"; sourceTree = "<group>"; };
+		1B02C56F142941E300F2B2B9 /* iCalNoPageAnimations-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iCalNoPageAnimations-Info.plist"; sourceTree = "<group>"; };
 		1B02C571142941E300F2B2B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1B02C573142941E300F2B2B9 /* iCalNoPageAnimations-Prefix.pch */ = {isa = PBXFileReference; path = "iCalNoPageAnimations-Prefix.pch"; sourceTree = "<group>"; };
+		1B02C573142941E300F2B2B9 /* iCalNoPageAnimations-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iCalNoPageAnimations-Prefix.pch"; sourceTree = "<group>"; };
+		1B02C579142942CF00F2B2B9 /* iCalNoPageAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCalNoPageAnimations.h; sourceTree = "<group>"; };
+		1B02C57A142942CF00F2B2B9 /* iCalNoPageAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCalNoPageAnimations.m; sourceTree = "<group>"; };
+		1B02C57C142943E900F2B2B9 /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
+		1B02C57D142943E900F2B2B9 /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
+		1B76F48914295E07005E9075 /* iCalNoPageFlip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iCalNoPageFlip.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +81,12 @@
 		1B02C56D142941E300F2B2B9 /* iCalNoPageAnimations */ = {
 			isa = PBXGroup;
 			children = (
+				1B76F48914295E07005E9075 /* iCalNoPageFlip.png */,
+				1B02C57C142943E900F2B2B9 /* JRSwizzle.h */,
+				1B02C57D142943E900F2B2B9 /* JRSwizzle.m */,
 				1B02C56E142941E300F2B2B9 /* Supporting Files */,
+				1B02C579142942CF00F2B2B9 /* iCalNoPageAnimations.h */,
+				1B02C57A142942CF00F2B2B9 /* iCalNoPageAnimations.m */,
 			);
 			path = iCalNoPageAnimations;
 			sourceTree = "<group>";
@@ -139,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B02C572142941E300F2B2B9 /* InfoPlist.strings in Resources */,
+				1B76F48A14295E07005E9075 /* iCalNoPageFlip.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +163,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B02C57B142942CF00F2B2B9 /* iCalNoPageAnimations.m in Sources */,
+				1B02C57E142943E900F2B2B9 /* JRSwizzle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,7 +186,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -197,7 +213,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -256,6 +272,7 @@
 				1B02C578142941E300F2B2B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
