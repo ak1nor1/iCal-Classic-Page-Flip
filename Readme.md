@@ -14,9 +14,9 @@ Annoyed by the very slow page animation in the latest version of iCal that came 
 This software is the solution. It disables the painfully slow animation of the latest iCal version and gives you back fast navigation in iCal. Now again, you can use cmd + arrows to move to the next  / previous month or year in iCal blazingly fast.
 
 Steps to install iCal Classic Page Flip:
-- Install latest version of SIMBL: http://www.macupdate.com/app/mac/18351/simbl
-- Download the iCal Classic Page Flip-bundle
-- Move the bundle into ~/Library/Application Support/SIMBL/Plugins (Note that both SIMBL and Plugins folder may not exist. Simply create those folders if you don't have them already.)
+1. Install latest version of SIMBL: http://www.macupdate.com/app/mac/18351/simbl
+1. Download the iCal Classic Page Flip-bundle
+1. Move the bundle into ~/Library/Application Support/SIMBL/Plugins (Note that both SIMBL and Plugins folder may not exist. Simply create those folders if you don't have them already.)
 
 
 
