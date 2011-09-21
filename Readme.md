@@ -2,9 +2,6 @@ iCal Classic Page Flip
 ======================
 The solution to Apples very slooow Page-Flip animation for monthly and yearly view in iCal 5.
 
-Grab it here: https://github.com/downloads/lukele/iCal-Classic-Page-Flip/iCalClassicPageFlip.zip
-
-
 Description
 -----------
 Annoyed by the very slow page animation in the latest version of iCal that came with Lion? Monthly and Yearly view both have an animation of a turning page. That might be nice on the first look, but it's time consuming and slows down the work flow on the long run.
@@ -23,7 +20,7 @@ Installation
 Steps to install iCal Classic Page Flip:
 
 1. install latest version of SIMBL: http://culater.net/software/SIMBL/SIMBL.php or http://www.macupdate.com/app/mac/18351/simbl
-2. download the iCal Classic Page Flip-bundle
+2. download the iCal Classic Page Flip-bundle from https://github.com/lukele/iCal-Classic-Page-Flip/downloads
 3. move the bundle into ~/Library/Application Support/SIMBL/Plugins (Note that both SIMBL and Plugins folder may not exist. Simply create those folders if you don't have them already.)
 4. restart iCal
 
