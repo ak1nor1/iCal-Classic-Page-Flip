@@ -1,4 +1,4 @@
-iCal-Classic-Page-Flip
+iCal Classic Page Flip
 ======================
 The solution to Apples very slooow Page-Flip animation for monthly and yearly view in iCal 5.
 
