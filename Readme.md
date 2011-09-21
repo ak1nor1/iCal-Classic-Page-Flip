@@ -52,4 +52,4 @@ Contact: WeDevelopGoodStuff@googlemail.com
 Donate
 ------
 
-If you like this software feel free to donate any amount of bitcoins to 14X7wZxKkbwPeodWJkV5LXN55xbCC5MC6A. It's appreciated and yes, we like Pizza. We also like beer. Hmmm.
+If you like this software feel free to donate any amount of bitcoins to BTC Deposit Address 14X7wZxKkbwPeodWJkV5LXN55xbCC5MC6A. It's appreciated and yes, we like Pizza. We also like beer. Hmmm.
