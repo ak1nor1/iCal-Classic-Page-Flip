@@ -20,9 +20,24 @@ Installation
 
 Steps to install iCal Classic Page Flip:
 
-1. Install latest version of SIMBL: http://culater.net/software/SIMBL/SIMBL.php or http://www.macupdate.com/app/mac/18351/simbl
-2. Download the iCal Classic Page Flip-bundle
-3. Move the bundle into ~/Library/Application Support/SIMBL/Plugins (Note that both SIMBL and Plugins folder may not exist. Simply create those folders if you don't have them already.)
+1. install latest version of SIMBL: http://culater.net/software/SIMBL/SIMBL.php or http://www.macupdate.com/app/mac/18351/simbl
+2. download the iCal Classic Page Flip-bundle
+3. move the bundle into ~/Library/Application Support/SIMBL/Plugins (Note that both SIMBL and Plugins folder may not exist. Simply create those folders if you don't have them already.)
+4. restart iCal
+
+
+How to disable the page flip
+----------------------------
+- open iCal
+- open settings
+- go to Advanced
+- enable the "Disable Page Flip Animation" checkbox
+
+
+Uninstall
+---------
+- go to ~/Library/Application Support/SIMBL/Plugins
+- move bundle to trash
 
 
 Version Information
