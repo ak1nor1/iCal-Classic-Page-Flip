@@ -9,25 +9,25 @@
 /* Begin PBXBuildFile section */
 		1B02C568142941E300F2B2B9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B02C567142941E300F2B2B9 /* Cocoa.framework */; };
 		1B02C572142941E300F2B2B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B02C570142941E300F2B2B9 /* InfoPlist.strings */; };
-		1B02C57B142942CF00F2B2B9 /* iCalNoPageAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B02C57A142942CF00F2B2B9 /* iCalNoPageAnimations.m */; };
+		1B02C57B142942CF00F2B2B9 /* iCalClassicPageFlip.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B02C57A142942CF00F2B2B9 /* iCalClassicPageFlip.m */; };
 		1B02C57E142943E900F2B2B9 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B02C57D142943E900F2B2B9 /* JRSwizzle.m */; };
-		1B76F48A14295E07005E9075 /* iCalNoPageFlip.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B76F48914295E07005E9075 /* iCalNoPageFlip.png */; };
+		1B76F48D14296560005E9075 /* iCalClassicPageFlip.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1B76F48C14296560005E9075 /* iCalClassicPageFlip.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1B02C564142941E300F2B2B9 /* iCalNoPageAnimations.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCalNoPageAnimations.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B02C564142941E300F2B2B9 /* iCalClassicPageFlip.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCalClassicPageFlip.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B02C567142941E300F2B2B9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		1B02C56A142941E300F2B2B9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		1B02C56B142941E300F2B2B9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		1B02C56C142941E300F2B2B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1B02C56F142941E300F2B2B9 /* iCalNoPageAnimations-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iCalNoPageAnimations-Info.plist"; sourceTree = "<group>"; };
+		1B02C56F142941E300F2B2B9 /* iCalClassicPageFlip-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iCalClassicPageFlip-Info.plist"; sourceTree = "<group>"; };
 		1B02C571142941E300F2B2B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1B02C573142941E300F2B2B9 /* iCalNoPageAnimations-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iCalNoPageAnimations-Prefix.pch"; sourceTree = "<group>"; };
-		1B02C579142942CF00F2B2B9 /* iCalNoPageAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCalNoPageAnimations.h; sourceTree = "<group>"; };
-		1B02C57A142942CF00F2B2B9 /* iCalNoPageAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCalNoPageAnimations.m; sourceTree = "<group>"; };
+		1B02C573142941E300F2B2B9 /* iCalClassicPageFlip-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iCalClassicPageFlip-Prefix.pch"; sourceTree = "<group>"; };
+		1B02C579142942CF00F2B2B9 /* iCalClassicPageFlip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCalClassicPageFlip.h; sourceTree = "<group>"; };
+		1B02C57A142942CF00F2B2B9 /* iCalClassicPageFlip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCalClassicPageFlip.m; sourceTree = "<group>"; };
 		1B02C57C142943E900F2B2B9 /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
 		1B02C57D142943E900F2B2B9 /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
-		1B76F48914295E07005E9075 /* iCalNoPageFlip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iCalNoPageFlip.png; sourceTree = "<group>"; };
+		1B76F48C14296560005E9075 /* iCalClassicPageFlip.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = iCalClassicPageFlip.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +45,7 @@
 		1B02C559142941E300F2B2B9 = {
 			isa = PBXGroup;
 			children = (
-				1B02C56D142941E300F2B2B9 /* iCalNoPageAnimations */,
+				1B02C56D142941E300F2B2B9 /* iCalClassicPageFlip */,
 				1B02C566142941E300F2B2B9 /* Frameworks */,
 				1B02C565142941E300F2B2B9 /* Products */,
 			);
@@ -54,7 +54,7 @@
 		1B02C565142941E300F2B2B9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1B02C564142941E300F2B2B9 /* iCalNoPageAnimations.bundle */,
+				1B02C564142941E300F2B2B9 /* iCalClassicPageFlip.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,25 +78,25 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		1B02C56D142941E300F2B2B9 /* iCalNoPageAnimations */ = {
+		1B02C56D142941E300F2B2B9 /* iCalClassicPageFlip */ = {
 			isa = PBXGroup;
 			children = (
-				1B76F48914295E07005E9075 /* iCalNoPageFlip.png */,
+				1B76F48C14296560005E9075 /* iCalClassicPageFlip.icns */,
 				1B02C57C142943E900F2B2B9 /* JRSwizzle.h */,
 				1B02C57D142943E900F2B2B9 /* JRSwizzle.m */,
 				1B02C56E142941E300F2B2B9 /* Supporting Files */,
-				1B02C579142942CF00F2B2B9 /* iCalNoPageAnimations.h */,
-				1B02C57A142942CF00F2B2B9 /* iCalNoPageAnimations.m */,
+				1B02C579142942CF00F2B2B9 /* iCalClassicPageFlip.h */,
+				1B02C57A142942CF00F2B2B9 /* iCalClassicPageFlip.m */,
 			);
-			path = iCalNoPageAnimations;
+			path = iCalClassicPageFlip;
 			sourceTree = "<group>";
 		};
 		1B02C56E142941E300F2B2B9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1B02C56F142941E300F2B2B9 /* iCalNoPageAnimations-Info.plist */,
+				1B02C56F142941E300F2B2B9 /* iCalClassicPageFlip-Info.plist */,
 				1B02C570142941E300F2B2B9 /* InfoPlist.strings */,
-				1B02C573142941E300F2B2B9 /* iCalNoPageAnimations-Prefix.pch */,
+				1B02C573142941E300F2B2B9 /* iCalClassicPageFlip-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -104,21 +104,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1B02C563142941E300F2B2B9 /* iCalNoPageAnimations */ = {
+		1B02C563142941E300F2B2B9 /* iCalClassicPageFlip */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B02C576142941E300F2B2B9 /* Build configuration list for PBXNativeTarget "iCalNoPageAnimations" */;
+			buildConfigurationList = 1B02C576142941E300F2B2B9 /* Build configuration list for PBXNativeTarget "iCalClassicPageFlip" */;
 			buildPhases = (
 				1B02C560142941E300F2B2B9 /* Sources */,
 				1B02C561142941E300F2B2B9 /* Frameworks */,
 				1B02C562142941E300F2B2B9 /* Resources */,
+				1B76F48E14296818005E9075 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = iCalNoPageAnimations;
-			productName = iCalNoPageAnimations;
-			productReference = 1B02C564142941E300F2B2B9 /* iCalNoPageAnimations.bundle */;
+			name = iCalClassicPageFlip;
+			productName = iCalClassicPageFlip;
+			productReference = 1B02C564142941E300F2B2B9 /* iCalClassicPageFlip.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -129,7 +130,7 @@
 			attributes = {
 				LastUpgradeCheck = 0420;
 			};
-			buildConfigurationList = 1B02C55E142941E300F2B2B9 /* Build configuration list for PBXProject "iCalNoPageAnimations" */;
+			buildConfigurationList = 1B02C55E142941E300F2B2B9 /* Build configuration list for PBXProject "iCalClassicPageFlip" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -141,7 +142,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1B02C563142941E300F2B2B9 /* iCalNoPageAnimations */,
+				1B02C563142941E300F2B2B9 /* iCalClassicPageFlip */,
 			);
 		};
 /* End PBXProject section */
@@ -152,18 +153,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B02C572142941E300F2B2B9 /* InfoPlist.strings in Resources */,
-				1B76F48A14295E07005E9075 /* iCalNoPageFlip.png in Resources */,
+				1B76F48D14296560005E9075 /* iCalClassicPageFlip.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B76F48E14296818005E9075 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "SetFile -a B \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME\"\n\n\"/Users/lukele/Developer/GPGTools/GPGMail/Dependencies/GPGTools_Core/bin/setfileicon\" \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME/Contents/Resources/iCalClassicPageFlip.icns\" \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1B02C560142941E300F2B2B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B02C57B142942CF00F2B2B9 /* iCalNoPageAnimations.m in Sources */,
+				1B02C57B142942CF00F2B2B9 /* iCalClassicPageFlip.m in Sources */,
 				1B02C57E142943E900F2B2B9 /* JRSwizzle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -233,10 +250,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iCalNoPageAnimations/iCalNoPageAnimations-Prefix.pch";
-				INFOPLIST_FILE = "iCalNoPageAnimations/iCalNoPageAnimations-Info.plist";
+				GCC_PREFIX_HEADER = "iCalClassicPageFlip/iCalClassicPageFlip-Prefix.pch";
+				INFOPLIST_FILE = "iCalClassicPageFlip/iCalClassicPageFlip-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iCalClassicPageFlip;
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
@@ -245,10 +262,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iCalNoPageAnimations/iCalNoPageAnimations-Prefix.pch";
-				INFOPLIST_FILE = "iCalNoPageAnimations/iCalNoPageAnimations-Info.plist";
+				GCC_PREFIX_HEADER = "iCalClassicPageFlip/iCalClassicPageFlip-Prefix.pch";
+				INFOPLIST_FILE = "iCalClassicPageFlip/iCalClassicPageFlip-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = iCalClassicPageFlip;
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
@@ -256,7 +274,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1B02C55E142941E300F2B2B9 /* Build configuration list for PBXProject "iCalNoPageAnimations" */ = {
+		1B02C55E142941E300F2B2B9 /* Build configuration list for PBXProject "iCalClassicPageFlip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1B02C574142941E300F2B2B9 /* Debug */,
@@ -265,7 +283,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1B02C576142941E300F2B2B9 /* Build configuration list for PBXNativeTarget "iCalNoPageAnimations" */ = {
+		1B02C576142941E300F2B2B9 /* Build configuration list for PBXNativeTarget "iCalClassicPageFlip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1B02C577142941E300F2B2B9 /* Debug */,

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string>iCalClassicPageFlip.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.leftandleaving.${PRODUCT_NAME:rfc1034identifier}</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>4</string>
+	<key>LSApplicationCategoryType</key>
+	<string>switchDisableState:</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2011 Left And Leaving. All rights reserved.</string>
+	<key>NSPrincipalClass</key>
+	<string>iCalClassicPageFlip</string>
+	<key>SIMBLTargetApplications</key>
+	<array>
+		<dict>
+			<key>BundleIdentifier</key>
+			<string>com.apple.iCal</string>
+			<key>MaxBundleVersion</key>
+			<string>2000</string>
+			<key>MinBundleVersion</key>
+			<string>1535</string>
+		</dict>
+	</array>
+</dict>
+</plist>
