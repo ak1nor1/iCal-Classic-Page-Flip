@@ -28,6 +28,6 @@ Steps to install iCal Classic Page Flip:
 Version Information
 -------------------
 
-Version 0.1: This is a first release of this fix. If there is demand we might expand this with an Installer.
+Version 1.0: This is a first release of this fix. If there is demand we might expand this with an Installer.
 
 Credit: Lukas Pitschl.
