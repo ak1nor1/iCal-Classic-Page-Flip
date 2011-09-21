@@ -20,7 +20,7 @@ Installation
 
 Steps to install iCal Classic Page Flip:
 
-1. Install latest version of SIMBL: http://www.macupdate.com/app/mac/18351/simbl
+1. Install latest version of SIMBL: http://culater.net/software/SIMBL/SIMBL.php or http://www.macupdate.com/app/mac/18351/simbl
 2. Download the iCal Classic Page Flip-bundle
 3. Move the bundle into ~/Library/Application Support/SIMBL/Plugins (Note that both SIMBL and Plugins folder may not exist. Simply create those folders if you don't have them already.)
 
