@@ -47,3 +47,9 @@ Version 1.0: This is a first release of this fix. If there is demand we might ex
 Credit: Lukas Pitschl in collaboration with Kristof Körner.
 
 Contact: WeDevelopGoodStuff@googlemail.com
+
+
+Donate
+------
+
+If you like this software feel free to donate any amount of bitcoins to 14X7wZxKkbwPeodWJkV5LXN55xbCC5MC6A. It's appreciated and yes, we like Pizza. We also like beer. Hmmm.
