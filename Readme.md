@@ -1,6 +1,7 @@
 iCal Classic Page Flip
 ======================
 The solution to Apples very slooow Page-Flip animation for monthly and yearly view in iCal 5.
+Grab it here: https://github.com/downloads/lukele/iCal-Classic-Page-Flip/iCalClassicPageFlip.zip
 
 
 Description
